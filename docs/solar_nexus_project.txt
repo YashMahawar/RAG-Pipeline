@@ -1,0 +1,22 @@
+Project Code: NEXUS-2026
+Deployment Date: October 14, 2026
+Lead Engineer: Dr. Elena Vance
+Location: Atacama Desert, Chile
+
+Overview:
+The Solar Nexus Project is a next-generation photovoltaic installation designed to test bifacial solar panel efficiency in high-altitude, arid environments. Unlike traditional setups, Nexus-2026 utilizes a proprietary cooling substrate code-named "Cryo-Grid" to reduce thermal degradation.
+
+Technical Specifications:
+1. Panel Type: Alpha-6 Bifacial Monocrystalline
+2. Total Capacity: 45 Megawatts (MW)
+3. Storage System: 120 MWh Lithium-Iron-Phosphate (LFP) battery bank
+4. Inverter Efficiency: 98.4% peak efficiency
+
+Key Parameters for Testing RAG Systems:
+- Budget: The initial phase was funded with $14.2 million from the Global Energy Initiative.
+- Coolant: Cryo-Grid uses a non-toxic, synthetic glycol-based fluid mixed with graphene nanoparticles. 
+- Maintenance Schedule: Panels are cleaned automatedly every Tuesday and Friday at 02:00 AM using waterless robotic brushes to prevent dust accumulation without wasting local water resources.
+- Known Issues: In early testing, high wind speeds exceeding 75 km/h triggered an automated safety stow mode, causing a temporary 12% drop in real-time power generation.
+
+Contact Information:
+For system anomalies or telemetry data access, contact the operations desk at ops@solarnexus.io or ping the internal Slack channel #nexus-tech-ops.

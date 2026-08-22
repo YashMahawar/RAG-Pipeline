@@ -1,0 +1,50 @@
+# BEACON CREST HEALTH GROUP - INTERNAL CLINICAL MANUAL
+## Document ID: BCHG-MAN-2026 | Classification: Restricted Medical Operations
+
+---
+
+# SECTION 1: FACILITY COLD-CHAIN STORAGE MANAGEMENT
+
+### POLICY CODE: POL-440 - Vaccine Refrigeration Protocols
+This protocol governs the handling of all temperature-sensitive biologics, including pediatric vaccines and insulin matrices.
+
+#### 1.1 Temperature Thresholds
+*   The primary medical refrigerator (Unit Ref-A) must maintain a strict operational temperature between 2.0°C and 8.0°C.
+*   The deep-freeze storage unit (Unit Cryo-B) must remain between -50.0°C and -15.0°C.
+
+#### 1.2 Sequential Steps for Handling a Cold-Chain Temperature Spike
+In the event that a refrigeration unit logs an active temperature breach warning (exceeding 8.0°C for more than 10 continuous minutes), staff must execute these exact steps:
+1.  **Deploy Thermal Blankets:** Immediately line the interior glass door with specialized reflective thermal blankets located in Cabinet 4.
+2.  **Activate Backup Compressor:** Press and hold the green "Auxiliary Power" button on the breaker panel for 5 seconds to bypass the primary circuit.
+3.  **Initiate Asset Transfer:** If the temperature does not begin descending within 15 minutes, manually transfer all biologics into the portable Phase-Change Material (PCM) transport coolers.
+4.  **Log the Delta:** Record the peak temperature reached, the total duration of the breach, and the specific batch serial numbers affected in the digital compliance ledger.
+
+---
+
+# SECTION 2: CLINICAL PATIENT TRIAGE ARCHITECTURES
+
+### POLICY CODE: POL-702 - Upper Respiratory Infection Protocol
+This protocol outlines the assessment framework for non-emergency walk-in patients presenting with acute respiratory symptoms during peak seasonal waves.
+
+#### 2.1 Symptom Identification for the Common Cold and Seasonal Flu
+*   **Primary Indications:** Acute rhinorrhea (runny nose), persistent low-grade fever (under 38.3°C), sore throat, and non-productive cough.
+*   **Exclusionary Criteria:** If the patient exhibits a resting heart rate exceeding 110 BPM or an oxygen saturation level below 92%, bypass this protocol and transfer them immediately to the Emergency Care Module.
+
+#### 2.2 Sequential Steps for Handling a Cold Patient Scenario
+When a patient is triaged and categorized as experiencing standard, non-severe "common cold" symptoms, clinical staff must execute these exact steps:
+1.  **Isolate Visual Field:** Direct the patient to the designated respiratory sub-waiting Zone C to prevent cross-contamination with immunocompromised individuals.
+2.  **Administer Hydration Baseline:** Provide the patient with an introductory oral rehydration packet (electrolyte formula) and 500mL of distilled water.
+3.  **Conduct Acetaminophen Titration:** If the low-grade fever is causing physical discomfort, administer 500mg of standard acetaminophen, provided no hepatic contradictions exist in their chart.
+4.  **Provide Discharge Mandate:** Issue the standardized "Home-Care Recovery Packet," which enforces a minimum of 48 hours of rest and mandates a return to the clinic if symptoms do not regress within 7 business days.
+
+---
+
+# SECTION 3: ADMINISTRATIVE & LEGAL COMPLIANCE
+
+### POLICY CODE: POL-808 - Billing, Invoice, and Insurance Disputes
+*   **Scope:** Governs how the accounting department handles overlapping claims, insurance denials, and patient self-pay installment plans.
+*   **Resolution Protocol:** All formal disputes must be logged via the Central Billing Clearinghouse Portal within 30 days of the original invoice generation timestamp.
+
+### POLICY CODE: POL-809 - Patient Data Privacy and HIPAA Mandates
+*   **Scope:** Outlines the legal requirements for securing Protected Health Information (PHI) across electronic health records (EHR).
+*   **Resolution Protocol:** Any unauthorized access or accidental exposure of a patient's medical records must be reported to the Chief Compliance Officer within 24 hours, followed by a formal audit of the system's access logs.
