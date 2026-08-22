@@ -21,4 +21,5 @@ A modular, production-grade Conversational Retrieval-Augmented Generation (RAG) 
 ├── answer.py                 # Query reformulation, sliding memory, and generation loop
 ├── .env.example              # Environment variables template
 ├── .gitignore                # Git exclusions
+├── requirements.txt          # Project Dependencies
 └── README.md
