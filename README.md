@@ -19,6 +19,7 @@ A modular, production-grade Conversational Retrieval-Augmented Generation (RAG) 
 ├── Ingestion_Pipeline.py     # Document loading, chunking, and ChromaDB upsert logic
 ├── Retrieval_Pipeline.py     # Vector retrieval and similarity search
 ├── answer.py                 # Query reformulation, sliding memory, and generation loop
+├── app.py                    # Streamlit app
 ├── .env.example              # Environment variables template
 ├── .gitignore                # Git exclusions
 ├── requirements.txt          # Project Dependencies
