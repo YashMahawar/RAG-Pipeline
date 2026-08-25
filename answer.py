@@ -14,7 +14,7 @@ def get_LLM():
     )
     return llm
 
-def create_prompt(query,relevant_chunks):
+def create_prompt(query,relevant_chunks,chatHistory):
     system_prompt= (f"""Based on the following documents answer the question provided
 
     Documents: 
@@ -29,11 +29,9 @@ def create_prompt(query,relevant_chunks):
     ]
     return message
 
-chatHistory = []
-vector_db= get_vector_db()
-llm = get_LLM()
 
-def ask_question(query):
+
+def ask_question(query,llm,chatHistory):
 
     if chatHistory:
         messages= [
@@ -51,7 +49,9 @@ def ask_question(query):
 
 def main():
     print("Main Function")
-
+    llm = get_LLM()
+    chatHistory = []
+    vector_db= get_vector_db()
     while True:
         print("\n\nEnter quit to exit")
         query = str(input("\nEnter your question: "))
@@ -60,13 +60,13 @@ def main():
             break
         
         else:
-            new_query = ask_question(query)
+            new_query = ask_question(query,llm,chatHistory)
             relevant_chunks=get_relevantChunks(vector_db,new_query)
             if not relevant_chunks:
                 print("I don't have enough information to answer the question based on provided documents.")
                 continue
 
-            message = create_prompt(query,relevant_chunks)
+            message = create_prompt(query,relevant_chunks,chatHistory)
             response = llm.invoke(message)
             print(f"{response.content}\n\n")
 

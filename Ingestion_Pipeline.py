@@ -126,22 +126,21 @@ def append_vector_db(chunks,chunk_IDs,db_path):
     else:
         print("No new documents found. The database is already up to date!")
 
-def main():
+def complete():
     documents= load_documents(docs_path="docs")
     chunks=chunk_documents(documents)
     chunks= calculate_chunk_IDs(chunks) # these chunks contain ID
-
+    db_path="db/chroma.db"
     chunk_IDs=[] # It will contain all the chunk IDs generated so far from new docs
 
     for i in chunks:
         ID_extract = i.metadata["ID"]
         chunk_IDs.append(ID_extract)
 
-        db_path="db/chroma.db"
     if not os.path.exists(db_path):
         vector_DB=create_vector_db(chunks,chunk_IDs,db_path)
     else:
         vector_DB=append_vector_db(chunks,chunk_IDs,db_path)
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
